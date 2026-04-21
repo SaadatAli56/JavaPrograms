@@ -1,0 +1,14 @@
+package Lab_week_03;
+
+public class Lab01LoopOverArray {
+    public static void main (String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
+        int sum = 0;
+        int a = arr.length;
+        for (int i = 0; i <= a ; i++) {
+            sum = sum + i;
+        }
+        System.out.print("The sum of array element is = " + sum);
+
+    }
+}
